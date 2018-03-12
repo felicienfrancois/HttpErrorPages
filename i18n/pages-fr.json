@@ -55,13 +55,13 @@
     // http proxy forward error
     "502": {
         "title": "Maintenance",
-        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+        "message": "Nous sommes en cours de maintenance. Merci de revenir d'ici quelques minutes."
     },
     
     // webserver service error
     "503": {
         "title": "Maintenance",
-        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+        "message": "Nous sommes en cours de maintenance. Merci de revenir d'ici quelques minutes."
     },
     
     // gateway timeout
@@ -82,12 +82,12 @@
     // webserver down error
     "521": {
         "title": "Maintenance",
-        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+        "message": "Nous sommes en cours de maintenance. Merci de revenir d'ici quelques minutes."
     },
     
     // maintenance
     "533": {
         "title": "Maintenance",
-        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+        "message": "Nous sommes en cours de maintenance. Merci de revenir d'ici quelques minutes."
     }
 }

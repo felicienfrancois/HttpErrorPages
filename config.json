@@ -3,5 +3,5 @@
     "scheme": "HTTP%d.html",
 
     // Footer content (HTML Allowed)
-    "footer": "Tech Contact <a href=\"mailto:info@example.org\">info@example.org</a>"
+    "footer": "Contact <a href=\"mailto:admin@example.org\">info@example.org</a>"
 }

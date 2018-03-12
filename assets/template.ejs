@@ -3,11 +3,24 @@
 <head>
     <!-- Simple HttpErrorPages | MIT License | https://github.com/AndiDittrich/HttpErrorPages -->
     <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>We've got some trouble | <%= code %> - <%= title %></title>
+    <title>Error</title>
     <style type="text/css"><%- inlinecss %></style>
 </head>
 <body>
-    <div class="cover"><h1><%= title %> <small>Error <%= code %></small></h1><p class="lead"><%= message %></p></div>
-    <% if (footer){ %><footer><p><%- footer %></p></footer><% } %>
+  <div class="cover">
+  <% for(var i=0; i<messages.length; i++) {%>
+    <h1 class="<% if (i>0) { %>hidden <% } %>lang lang_<%= messages[i].lang %>"><span class="title lang_<%= messages[i].lang %>"><%= messages[i].title %></span> <small><%= messages[i].error %> <%= code %></small></h1>
+    <p class="lead <% if (i>0) { %>hidden <% } %>lang lang_<%= messages[i].lang %>"><%= messages[i].message %></p>
+  <% } %>
+  </div>
+  <footer>
+    <% for(var i=0; i<messages.length; i++) {%>
+      <span class="<% if (i>0) { %>hidden <% } %>lang lang_<%= messages[i].lang %>">
+        <%- messages[i].contact %>
+      </span>
+    <% } %>
+    <a id="contact" href="javascript:void(0);"></a>
+  </footer>
+  <script type="text/javascript"><%- inlinejs %></script>
 </body>
 </html>

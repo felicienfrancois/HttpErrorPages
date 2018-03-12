@@ -55,13 +55,13 @@
     // http proxy forward error
     "502": {
         "title": "Down for maintenance",
-        "message": "The website is currently down for maintenance. Please retry in a few minutes."
+        "message": "We're currently down for maintenance. Please come back in a few minutes."
     },
     
     // webserver service error
     "503": {
         "title": "Down for maintenance",
-        "message": "The website is currently down for maintenance. Please retry in a few minutes."
+        "message": "We're currently down for maintenance. Please come back in a few minutes."
     },
       
     // gateway timeout
@@ -87,7 +87,7 @@
     
     // maintenance
     "533": {
-        "title": "Scheduled Maintenance",
-        "message": "This site is currently down for maintenance.\nOur service team is working hard to bring it back online soon."                
-    }
+        "title": "Down for maintenance",
+        "message": "We're currently down for maintenance. Please come back in a few minutes."
+     }
 }
