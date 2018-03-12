@@ -21,6 +21,24 @@
         "title": "Resource not found",
         "message": "The requested resource could not be found but may be available again in the future." 
     },
+        
+    // http 405 method not allowed
+    "405": {
+        "title": "Method not allowed",
+        "message": "The request method is not accepted by the server"
+    },
+    
+    // http 408 request timeout
+    "408": {
+        "title": "Request timeout",
+        "message": "The request have not been transmitted during the allocated time."
+    },
+    
+    // http 429 too many requests
+    "429": {
+        "title": "Too many requests",
+        "message": "The web server cannot handle all requests."
+    },
     
     // internal server error
     "500": {
@@ -36,16 +54,22 @@
     
     // http proxy forward error
     "502": {
-        "title": "Webservice currently unavailable",
-        "message": "We've got some trouble with our backend upstream cluster.\nOur service team has been dispatched to bring it back online."
+        "title": "Down for maintenance",
+        "message": "The website is currently down for maintenance. Please retry in a few minutes."
     },
     
     // webserver service error
     "503": {
-        "title": "Webservice currently unavailable",
-        "message": "We've got some trouble with our backend upstream cluster.\nOur service team has been dispatched to bring it back online."
+        "title": "Down for maintenance",
+        "message": "The website is currently down for maintenance. Please retry in a few minutes."
     },
-    
+      
+    // gateway timeout
+    "504": {
+        "title": "Gateway timeout",
+        "message": "The web server took too much time to answer." 
+    },
+     
     // CUSTOM ERROR CODES
     // =======================================================
 
