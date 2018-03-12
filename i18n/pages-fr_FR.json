@@ -1,0 +1,93 @@
+{        
+    // STANDARD ERROR CODES
+    // =======================================================
+
+    "400": {
+        "title": "Requète incorrecte",
+        "message": "Le serveur ne peut pas traiter la demande car la requète est erronée ou malformée." 
+    },
+    "401": {
+        "title": "Non autorisé",
+        "message": "Vous devez être authentifié(e) pour accéder à la page demandée."
+    },
+
+    "403": {
+        "title": "Accès refusé",
+        "message": "Vous devez être authentifié(e) pour accéder à la page demandée." 
+    },
+    
+    // http 404 not found
+    "404": {
+        "title": "Page non trouvée",
+        "message": "La page demandée est introuvable." 
+    },
+    
+    // http 405 method not allowed
+    "405": {
+        "title": "Méthode non authorisée",
+        "message": "La méthode utilisée n'est pas authorisée par le serveur."
+    },
+    
+    // http 408 request timeout
+    "408": {
+        "title": "Temps d'attente dépassé",
+        "message": "La requète n'a pas été transmise dans le temps imparti."
+    },
+    
+    // http 429 too many requests
+    "429": {
+        "title": "Trop de requètes simultanées",
+        "message": "Le serveur est surchargé et ne peut pas répondre à toutes les requètes."
+    },
+    
+    // internal server error
+    "500": {
+        "title": "Erreur technique",
+        "message": "Une erreur inattendue est survenue lors du traitement de la requète." 
+    },
+    
+    // unknown http method
+    "501": {
+        "title": "Non supportée",
+        "message": "Le serveur web ne supporte pas cette méthode ou protocole."
+    },
+    
+    // http proxy forward error
+    "502": {
+        "title": "Maintenance",
+        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+    },
+    
+    // webserver service error
+    "503": {
+        "title": "Maintenance",
+        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+    },
+    
+    // gateway timeout
+    "504": {
+        "title": "Temps d'attente dépassé'",
+        "message": "Le serveur a mis trop longtemps a répondre." 
+    },
+    
+    // CUSTOM ERROR CODES
+    // =======================================================
+
+    // webserver origin error
+    "520": {
+        "title": "Erreur de nom de domaine",
+        "message": "Le domaine demandé n'est pas configuré."
+    },
+    
+    // webserver down error
+    "521": {
+        "title": "Maintenance",
+        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+    },
+    
+    // maintenance
+    "533": {
+        "title": "Maintenance",
+        "message": "Le site est actuellement en maintenance. Merci de réessayer dans quelques minutes."
+    }
+}
